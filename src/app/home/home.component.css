@@ -173,12 +173,7 @@ button:hover {
     margin-right: 80%;
 }
 
-.gray {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: gray;
-    font-weight: bold;
-}
+
 
 #aboutHead, #workHead {
     text-align: center;
@@ -187,26 +182,9 @@ button:hover {
     width: 90%;
 }
 
-#aboutHead {
-    grid-column: 1 / span 3;
-}
 
-#aboutdetail {
-    text-align: left;
-    height: auto;
-    width: 85%;
-    margin: auto;
-    margin-left: 1em;
-    padding: 1em;
-    grid-column: 2 / 3;
-}
 
-#headshot {
-    margin: auto;
-    grid-column: 1 / 2;
-    max-height: 272px;
-    max-width: 272px;
-}
+
 
 .projectLink {
     text-decoration: none;

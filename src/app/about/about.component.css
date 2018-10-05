@@ -1,0 +1,36 @@
+#aboutModal {
+    display: grid;
+    grid-template-areas: "head head"
+                         "pic text"
+}
+
+#aboutHead {
+    grid-area: "head";
+    margin: auto;
+    margin-bottom: .15em;
+}
+
+#headshot {
+    grid-area: "pic";
+    margin: auto;
+    max-height: 272px;
+    max-width: 272px;
+}
+
+
+
+#aboutdetail {
+    grid-area: "text";
+    height: auto;
+    width: 85%;
+    margin: auto;
+    padding: 1em;
+
+}
+
+.gray {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: gray;
+    font-weight: bold;
+}
