@@ -72,11 +72,6 @@ ul {
     background-color: white;
 }
 
-h1 {
-    order: 0;
-    font-family: Pacifico, Helvetica, sans-serif;
-    font-size: 66px;
-}
 
 .buttons {
     display: inline;
