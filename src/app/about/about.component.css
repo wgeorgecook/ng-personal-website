@@ -1,7 +1,23 @@
+.modalContent {
+    background-color: #fefefe;
+    display: none;
+    margin: 10%;
+    padding: 20px;
+    border: 1px solid rgb(117, 196, 238);
+    box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
+    transition: all 500ms;
+    flex-direction: row;
+}
+
 #aboutModal {
     display: grid;
-    grid-template-areas: "head head"
+    grid-template-areas: "close close"
+                         "head head"
                          "pic text"
+}
+
+.closeAbout {
+    grid-area: close
 }
 
 #aboutHead {
