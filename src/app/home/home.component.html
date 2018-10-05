@@ -1,32 +1,57 @@
-<div id="main">
-      <h1>Hello!</h1>
-      <p>I'm glad you stopped by. I program things and hug trees.</p>
-      <span class="buttons">
-          <button routerLink="projects" id="projectBtn">Projects</button>
-          <button routerLink="about" id="aboutBtn">About William</button>
-      </span>
-      <span id="social">
-          <a href="https://github.com/wgeorgecook">
-              <img src="assets/github.svg" class="socialthumb" alt="github logo">
-          </a>
-          <a href="https://twitter.com/wgeorgecook">
-              <img src="assets/twitter.svg" class="socialthumb" alt="twitter logo">
-          </a>
-          <a href="https://linkedin.com/in/wgeorgecook">
-            <img src="assets/linkedin.svg" class="socialthumb" alt="linkedin logo">
-        </a>
-      </span>
-      <span id="socialLinks">
-        <a href="https://github.com/wgeorgecook">
-            Github
-        </a>
-        <a href="https://twitter.com/wgeorgecook">
-            Twitter
-        </a>
-        <a href="https://linkedin.com/in/wgeorgecook">
-          LinkedIn
-        </a>
-      </span>
-</div>
-<div id="modal">
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>William Cook!</title>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Pacifico'>
+
+  </head>
+  <body>
+      <div id="background">
+            <header class="container">
+                    <span class="item" id="name">William George Cook</span>
+                    <span class="item" id="navbar">
+                          <span id="navContact">
+                              <p routerLink="contact" id="contactBtn">Contact</p>
+                          </span>
+                    </span>
+                </header>
+                <div id="main">
+                      <h1>Hello!</h1>
+                      <p>I'm glad you stopped by. I program things and hug trees.</p>
+                      <span class="buttons">
+                          <button routerLink="projects" id="projectBtn">Projects</button>
+                          <button routerLink="about" id="aboutBtn">About William</button>
+                      </span>
+                      <span id="social">
+                          <a href="https://github.com/wgeorgecook">
+                              <img src="assets/github.svg" class="socialthumb" alt="github logo">
+                          </a>
+                          <a href="https://twitter.com/wgeorgecook">
+                              <img src="assets/twitter.svg" class="socialthumb" alt="twitter logo">
+                          </a>
+                          <a href="https://linkedin.com/in/wgeorgecook">
+                            <img src="assets/linkedin.svg" class="socialthumb" alt="linkedin logo">
+                        </a>
+                      </span>
+                      <span id="socialLinks">
+                        <a href="https://github.com/wgeorgecook">
+                            Github
+                        </a>
+                        <a href="https://twitter.com/wgeorgecook">
+                            Twitter
+                        </a>
+                        <a href="https://linkedin.com/in/wgeorgecook">
+                          LinkedIn
+                        </a>
+                      </span>
+                </div>
+            <div id="modal">
+            </div>
+        </div>
+  </body>
+<script src="js/page.js"></script>
+</html>
+
+<router-outlet></router-outlet>
