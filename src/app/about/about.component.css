@@ -16,8 +16,13 @@
                          "pic text"
 }
 
-.closeAbout {
-    grid-area: close
+#closeAbout {
+    grid-area: close;
+    display: block;
+    cursor: pointer;
+    font-size: 2em;
+    width: 48px;
+    height: 48px;
 }
 
 #aboutHead {
