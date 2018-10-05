@@ -1,3 +1,34 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(117, 196, 238); /* Hex is #4286f4 */
+    background-image: url("../assets/leaves-pattern.png");
+    background-repeat: repeat;
+}
+
+header {
+    box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a, ul, li {
+    text-decoration: none;
+    color: rgb(117, 196, 238);
+}
+
+a:hover {
+    color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .socialthumb {
     width: 60px;
     height: 60px;
