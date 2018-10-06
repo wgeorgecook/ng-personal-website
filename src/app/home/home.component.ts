@@ -4,6 +4,7 @@ import { ContactComponent } from '../contact/contact.component';
 import { ProjectsComponent } from '../projects/projects.component'
 import { AboutComponent } from '../about/about.component'
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -30,7 +31,6 @@ export class HomeComponent implements OnInit {
   openProjects() {
     let dialogRef = this.dialog.open(ProjectsComponent, {
       width: '600px',
-      data: 'This text is passed into the dialog!'
     });
   }
 
