@@ -1,15 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import * as data from '../../assets/data.json'
 
 @Component({
   selector: 'app-projects',
-  templateUrl: './projects.component.html',
+  templateUrl: './projects.component.template.html',
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  projects: Array<string>;
+
+
+  constructor() {
+    this.projects = (<any>data).projects
+   }
 
   ngOnInit() {
   }
+
+
 
 }
