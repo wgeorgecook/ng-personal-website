@@ -4,7 +4,7 @@
                 <span class="item" id="name">William George Cook</span>
                 <span class="item" id="navbar">
                         <span id="navContact">
-                            <p (click)="openDialog()" id="contactBtn">Contact</p>
+                            <p (click)="openContact()" id="contactBtn">Contact</p>
                         </span>
                 </span>
             </header>
@@ -12,8 +12,8 @@
                     <h1>Hello!</h1>
                     <p>I'm glad you stopped by. I program things and hug trees.</p>
                     <span class="buttons">
-                        <button routerLink="projects" id="projectBtn">Projects</button>
-                        <button routerLink="about" id="aboutBtn">About William</button>
+                        <button (click)="openProjects()" id="projectBtn">Projects</button>
+                        <button (click)="openAbout()"  id="aboutBtn">About William</button>
                     </span>
                     <span id="social">
                         <a href="https://github.com/wgeorgecook">
