@@ -1,0 +1,9 @@
+<div id="projectModal" class="modalContent">
+    <h1 id="workHead">Recent work</h1>
+    <ul class="project-list">
+        <li class="list-item" *ngFor="let project of projects">
+            <a href="{{ project.url }}" id="projectLink">{{ project.title }}</a> on {{ project.platform }}
+            <div class="projectDetail">{{ project.detail }}</div>
+        </li>
+    </ul>
+</div>
