@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "title": "Welcome to the Magic Kingdom",
+            "language": "React.js",
+            "platform": "Heroku",
+            "url": "https://magic-kingdom.herokuapp.com/",
+            "detail": "Draws Magic Kingdom attraction locations on a Google map. Will also display attraction details from Foursquare when selected."
+
+        },
+        {
+            "title": "My Reads Virtual Bookshelf",
+            "language": "React.js",
+            "platform": "Firebase",
+            "url": "https://my-reads-f8615.firebaseapp.com/",
+            "detail": "Simple React GoodReads clone to keep track of books you've read, books you want to read, and books you're currently reading."
+
+        },
+        {
+            "title": "Frogger Clone",
+            "language": "Javscript/ES6",
+            "url": "https://wgeorgecook.github.io/arcade-game/",
+            "platform": "Github Pages",
+            "detail": "Cross the grass and reach the water! Avoid bugs along the way."
+
+        },
+        {
+            "title": "@trumpratings on Twitter",
+            "language": "Python",
+            "platform": "PostgresSQL",
+            "url": "https://twitter.com/trumpsratings",
+            "detail": "Culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings."
+
+        },
+        {
+            "title": "Reddit/Facebook Sharing Integration",
+            "language": "Python",
+            "platform": "PostgreSQL",
+            "url": "https://github.com/wgeorgecook/reddit-facebook-integrator",
+            "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice."
+
+        }
+    ]
+}
