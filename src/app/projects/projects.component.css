@@ -6,17 +6,6 @@ ul, li {
 }
 
 
-.modalContent {
-    background-color: #fefefe;
-    margin: 10%;
-    padding: 20px;
-    border: 1px solid rgb(117, 196, 238);
-    box-shadow: -1px 15px 39px -8px rgba(0,0,0,0.75);
-    transition: all 500ms;
-    flex-direction: row;
-}
-
-
 #projectModal {
     text-align: center;
 }
