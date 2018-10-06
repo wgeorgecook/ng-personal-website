@@ -3,14 +3,14 @@ import * as data from '../../assets/data.json'
 
 @Component({
   selector: 'app-about',
-  templateUrl: './about.component.html',
+  templateUrl: './about.component.template.html',
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  about: Array<string>;
+  bio: Array<string>;
 
   constructor() {
-    this.about = (<any>data).bio
+    this.bio = (<any>data).bio
    }
 
   ngOnInit() {
