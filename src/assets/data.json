@@ -40,5 +40,10 @@
             "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice."
 
         }
-    ]
+    ],
+    "bio": {
+        "top": "I’m a California native, replanted from Chicago.",
+        "middle": "I started from the ground up, working helpdesk to get through college.\nAfter moving to California I found myself doing Windows/Linux system administration.\nFrom there, I managed a help desk team. Finally I worked on deployment automation,\nparticularly for Atlassian applications running on RHEL/CentOS servers.\nI’ve come back around and am writing Python. I'm currently enrolled in a Udacity nanodegree\nfor front end development courtesy of Google via the Grow With Google scholarship.\nI’m comfortable with Postgres and T-SQL. Bash and Powershell. Javascript, HTML, and CSS.",
+        "bottom": "Thanks for stopping by and let’s get in touch!"
+    }
 }
