@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as data from '../../assets/data.json'
 
 @Component({
   selector: 'app-about',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+  about: Array<string>;
 
-  constructor() { }
+  constructor() {
+    this.about = (<any>data).bio
+   }
 
   ngOnInit() {
   }
