@@ -5,7 +5,7 @@
             "language": "React.js",
             "platform": "Heroku",
             "url": "https://magic-kingdom.herokuapp.com/",
-            "detail": "Draws Magic Kingdom attraction locations on a Google map. Will also display attraction details from Foursquare when selected."
+            "detail": "React application that draws Magic Kingdom attraction locations on a Google map. Will also display attraction details from Foursquare when selected."
 
         },
         {
@@ -21,7 +21,7 @@
             "language": "Javscript/ES6",
             "url": "https://wgeorgecook.github.io/arcade-game/",
             "platform": "Github Pages",
-            "detail": "Cross the grass and reach the water! Avoid bugs along the way."
+            "detail": "Cross the grass and reach the water! Avoid bugs along the way. Written in JavaScript."
 
         },
         {
@@ -29,7 +29,7 @@
             "language": "Python",
             "platform": "PostgresSQL",
             "url": "https://twitter.com/trumpsratings",
-            "detail": "Culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings."
+            "detail": "Python application that culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings. Stores data in PostgreSQL database."
 
         },
         {
@@ -37,13 +37,13 @@
             "language": "Python",
             "platform": "PostgreSQL",
             "url": "https://github.com/wgeorgecook/reddit-facebook-integrator",
-            "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice."
+            "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice. Python on PostgreSQL."
 
         }
     ],
     "bio": {
         "top": "I’m a California native, replanted from Chicago.",
-        "middle": "I started from the ground up, working helpdesk to get through college.\nAfter moving to California I found myself doing Windows/Linux system administration.\nFrom there, I managed a help desk team. Finally I worked on deployment automation,\nparticularly for Atlassian applications running on RHEL/CentOS servers.\nI’ve come back around and am writing Python. I'm currently enrolled in a Udacity nanodegree\nfor front end development courtesy of Google via the Grow With Google scholarship.\nI’m comfortable with Postgres and T-SQL. Bash and Powershell. Javascript, HTML, and CSS.",
+        "middle": "I started from the ground up, working helpdesk to get through college.\nAfter moving to California I found myself doing Windows/Linux system administration.\nFrom there, I managed a help desk team. Finally I worked on deployment automation,\nparticularly for Atlassian applications running on RHEL/CentOS servers.\nI’ve come back around and am writing Python. I finished a Udacity nanodegree\nfor front end development courtesy of Google via the Grow With Google scholarship.\nFind me writting JavaScript (This site runs on Angular 6, but I know React too!) or Python. I'm planning to learn Node.js as well to round out my stack.",
         "bottom": "Thanks for stopping by and let’s get in touch!"
     },
     "contact": {
