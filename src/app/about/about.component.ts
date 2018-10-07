@@ -7,10 +7,10 @@ import * as data from '../../assets/data.json'
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  bio: Array<any>;
+  bio = (<any>data).bio;
 
   constructor() {
-    this.bio = (<any>data).bio
+
    }
 
   ngOnInit() {

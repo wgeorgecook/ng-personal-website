@@ -7,10 +7,10 @@ import * as data from '../../assets/data.json'
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  contacts: Array<any>;
+  contacts = (<any>data).contact
 
   constructor() {
-    this.contacts = (<any>data).contact
+
   }
 
   ngOnInit() {
