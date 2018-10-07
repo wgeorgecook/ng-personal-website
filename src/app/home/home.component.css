@@ -54,7 +54,7 @@ a:hover {
     flex-direction: column;
     justify-content: space-around;
     width: 75%;
-    height: 80%;
+    height: 90%;
     padding: 1em;
     border-radius: .15em;
     text-align: center;
@@ -73,7 +73,7 @@ button {
     background-color: white;
     border: 1px solid rgb(117, 196, 238);
     width: 200px;
-    height: 60px;
+    height: 45px;
     padding: auto;
     margin: auto;
     border-radius: .15em;
@@ -90,10 +90,10 @@ button:hover {
 }
 /* All social media thumbnails provided courtesy https://simpleicons.org/ */
 .socialthumb {
-    width: 60px;
-    height: 60px;
-    padding: 1em;
-    margin: 1em;
+    width: 45px;
+    height: 45px;
+    padding: .4em;
+    margin: .2em;
 }
 
 .socialthumb:hover {
@@ -103,4 +103,17 @@ button:hover {
 
 #socialLinks {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .socialthumb {
+        width: 60px;
+        height: 60px;
+        padding: .4em;
+        margin: .2em;
+    }
+
+    #main {
+        max-width: 1080px;
+    }
 }
