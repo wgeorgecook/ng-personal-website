@@ -7,7 +7,7 @@ import * as data from '../../assets/data.json'
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  contacts: Array<string>;
+  contacts: Array<any>;
 
   constructor() {
     this.contacts = (<any>data).contact
