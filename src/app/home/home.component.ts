@@ -17,14 +17,12 @@ export class HomeComponent implements OnInit {
   openContact() {
     let dialogRef = this.dialog.open(ContactComponent, {
       width: '600px',
-      data: 'This text is passed into the dialog!'
     });
   }
 
   openAbout() {
     let dialogRef = this.dialog.open(AboutComponent, {
       width: '600px',
-      data: 'This text is passed into the dialog!'
     });
   }
 
