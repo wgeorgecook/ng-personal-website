@@ -1,27 +1,22 @@
 #aboutModal {
     display: grid;
-    grid-template-areas: "close close"
-                         "head head"
-                         "pic text"
+    grid-template-areas: "head"
+                         "text"
 }
 
-#closeAbout {
-    grid-area: close;
-    display: block;
-    cursor: pointer;
-    font-size: 2em;
-    width: 48px;
-    height: 48px;
+#aboutHead {
+    grid-area: head;
+    margin: auto;
+    margin-bottom: .15em;
 }
 
 #headshot {
-    grid-area: pic;
-    margin: auto;
-    max-height: 272px;
-    max-width: 272px;
+    display: none;
 }
 
-
+mat-dialog-content {
+    margin: .1em;
+}
 
 #aboutdetail {
     grid-area: text;
@@ -37,4 +32,19 @@
     margin-bottom: 1em;
     color: gray;
     font-weight: bold;
+}
+
+@media screen and (min-width: 720px) {
+    #aboutModal {
+        display: grid;
+        grid-template-areas: "head head"
+                             "pic text"
+    }
+
+    #headshot {
+        display: grid;
+        grid-area: pic;
+        max-height: 272px;
+        max-width: 272px;
+    }
 }
