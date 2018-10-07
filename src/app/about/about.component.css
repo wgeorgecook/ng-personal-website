@@ -14,12 +14,6 @@
     height: 48px;
 }
 
-#aboutHead {
-    grid-area: head;
-    margin: auto;
-    margin-bottom: .15em;
-}
-
 #headshot {
     grid-area: pic;
     margin: auto;
