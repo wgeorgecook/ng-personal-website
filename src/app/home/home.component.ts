@@ -16,19 +16,19 @@ export class HomeComponent implements OnInit {
 
   openContact() {
     let dialogRef = this.dialog.open(ContactComponent, {
-      width: '600px',
+      width: '900px',
     });
   }
 
   openAbout() {
     let dialogRef = this.dialog.open(AboutComponent, {
-      width: '600px',
+      width: '900px',
     });
   }
 
   openProjects() {
     let dialogRef = this.dialog.open(ProjectsComponent, {
-      width: '600px',
+      width: '900px',
     });
   }
 
