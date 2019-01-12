@@ -13,7 +13,7 @@
             "language": "Python",
             "platform": "PostgresSQL",
             "url": "https://twitter.com/trumpsratings",
-            "detail": "Python application that culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings. Stores data in PostgreSQL database and serves it to an API."
+            "detail": "Python application that culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings. Stores data in PostgreSQL database and serves it to an API using Flask."
 
         },
         {
