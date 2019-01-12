@@ -2,11 +2,13 @@
     <h1 id="workHead">Recent work</h1>
     <mat-dialog-content>
         <ul class="project-list">
+
             <li class="list-item" *ngFor="let project of projects">
-                <a href="{{ project.url }}" class="projectLink">{{ project.title }}</a>
                 <hr />
+                <a href="{{ project.url }}" class="projectLink">{{ project.title }}</a>
                 <div class="projectDetail">{{ project.detail }}</div>
             </li>
         </ul>
+    <hr />
     </mat-dialog-content>
 </div>
