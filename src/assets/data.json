@@ -17,11 +17,11 @@
 
         },
         {
-            "title": "Reddit/Facebook Sharing Integration",
-            "language": "Python",
-            "platform": "PostgreSQL",
-            "url": "https://github.com/wgeorgecook/reddit-facebook-integrator",
-            "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice. Python on PostgreSQL."
+            "title": "Trumpratings Front End",
+            "language": "Javascript",
+            "platform": "React",
+            "url": "https://github.com/wgeorgecook/trumpratings-front",
+            "detail": "A React front end to display data served from the @trumpratings API."
 
         },
         {
