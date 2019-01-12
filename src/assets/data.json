@@ -9,6 +9,22 @@
 
         },
         {
+            "title": "@trumpratings on Twitter",
+            "language": "Python",
+            "platform": "PostgresSQL",
+            "url": "https://twitter.com/trumpsratings",
+            "detail": "Python application that culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings. Stores data in PostgreSQL database and serves it to an API."
+
+        },
+        {
+            "title": "Reddit/Facebook Sharing Integration",
+            "language": "Python",
+            "platform": "PostgreSQL",
+            "url": "https://github.com/wgeorgecook/reddit-facebook-integrator",
+            "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice. Python on PostgreSQL."
+
+        },
+        {
             "title": "My Reads Virtual Bookshelf",
             "language": "React.js",
             "platform": "Firebase",
@@ -22,22 +38,6 @@
             "url": "https://wgeorgecook.github.io/arcade-game/",
             "platform": "Github Pages",
             "detail": "Cross the grass and reach the water! Avoid bugs along the way. Written in JavaScript."
-
-        },
-        {
-            "title": "@trumpratings on Twitter",
-            "language": "Python",
-            "platform": "PostgresSQL",
-            "url": "https://twitter.com/trumpsratings",
-            "detail": "Python application that culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings. Stores data in PostgreSQL database."
-
-        },
-        {
-            "title": "Reddit/Facebook Sharing Integration",
-            "language": "Python",
-            "platform": "PostgreSQL",
-            "url": "https://github.com/wgeorgecook/reddit-facebook-integrator",
-            "detail": "Will message latest upvoted Reddit post to a Facebook user of your choice. Python on PostgreSQL."
 
         }
     ],
