@@ -28,7 +28,7 @@ ul, li {
 
 .projectLink {
     color: lightskyblue;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bolder;
     font-size: 1.25em;
 }
