@@ -28,9 +28,21 @@ ul, li {
 
 .projectLink {
     color: lightskyblue;
-    text-decoration: underline;
     font-weight: bolder;
     font-size: 1.25em;
+}
+
+/* All social media thumbnails provided courtesy https://simpleicons.org/ */
+.socialthumb {
+    width: 45px;
+    height: 45px;
+    padding: .4em;
+    margin: .2em;
+}
+
+.socialthumb:hover {
+    background-color: rgb(117, 196, 238);
+    border-radius: 10px;
 }
 
 .list-item {
