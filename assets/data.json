@@ -5,6 +5,7 @@
             "language": "React/Node",
             "platform": "Mongo/AWS Amplify",
             "url": "http://carbcounter-20190318174918-hostingbucket-test.s3-website-eu-west-1.amazonaws.com/",
+            "github":"https://github.com/wgeorgecook/carbCounter",
             "detail": "MERN stack. Allows users to create an account and store custom nutritional information. Calculates the total carbohydrate intake for all foods selected from."
 
         },
@@ -13,6 +14,7 @@
             "language": "Python",
             "platform": "PostgresSQL",
             "url": "https://twitter.com/trumpsratings",
+            "github":"https://github.com/wgeorgecook/trumpratings",
             "detail": "Python application that culls @readDonaldTrump's twitter feed and latest Gallup approval ratings. Retweets latest post with latest ratings. Stores data in PostgreSQL database and serves it to an API using Flask."
 
         },
@@ -21,6 +23,7 @@
             "language": "Javascript",
             "platform": "React",
             "url": "http://superstubby.ddns.net/index.html",
+            "github":"https://github.com/wgeorgecook/trumpratings-front",
             "detail": "A React front end to display data served from the @trumpratings API."
 
         },
@@ -29,6 +32,7 @@
             "language": "React.js",
             "platform": "Heroku",
             "url": "https://magic-kingdom.herokuapp.com/",
+            "github":"https://github.com/wgeorgecook/magic-kingdom-map",
             "detail": "React application that draws Magic Kingdom attraction locations on a Google map. Will also display attraction details from Foursquare when selected."
 
         }
