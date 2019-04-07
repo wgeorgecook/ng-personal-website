@@ -1,11 +1,11 @@
 {
     "projects": [
         {
-            "title": "Welcome to the Magic Kingdom",
-            "language": "React.js",
-            "platform": "Heroku",
-            "url": "https://magic-kingdom.herokuapp.com/",
-            "detail": "React application that draws Magic Kingdom attraction locations on a Google map. Will also display attraction details from Foursquare when selected."
+            "title": "CarbCounter",
+            "language": "React/Node",
+            "platform": "Mongo/AWS Amplify",
+            "url": "http://carbcounter-20190318174918-hostingbucket-test.s3-website-eu-west-1.amazonaws.com/",
+            "detail": "MERN stack. Allows users to create an account and store custom nutritional information. Calculates the total carbohydrate intake for all foods selected from."
 
         },
         {
@@ -20,24 +20,16 @@
             "title": "Trumpratings Front End",
             "language": "Javascript",
             "platform": "React",
-            "url": "https://github.com/wgeorgecook/trumpratings-front",
+            "url": "http://superstubby.ddns.net/index.html",
             "detail": "A React front end to display data served from the @trumpratings API."
 
         },
         {
-            "title": "My Reads Virtual Bookshelf",
+            "title": "Welcome to the Magic Kingdom",
             "language": "React.js",
-            "platform": "Firebase",
-            "url": "https://my-reads-f8615.firebaseapp.com/",
-            "detail": "Simple React GoodReads clone to keep track of books you've read, books you want to read, and books you're currently reading."
-
-        },
-        {
-            "title": "Frogger Clone",
-            "language": "Javscript/ES6",
-            "url": "https://wgeorgecook.github.io/arcade-game/",
-            "platform": "Github Pages",
-            "detail": "Cross the grass and reach the water! Avoid bugs along the way. Written in JavaScript."
+            "platform": "Heroku",
+            "url": "https://magic-kingdom.herokuapp.com/",
+            "detail": "React application that draws Magic Kingdom attraction locations on a Google map. Will also display attraction details from Foursquare when selected."
 
         }
     ],
