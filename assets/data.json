@@ -4,6 +4,7 @@
             "title": "CarbCounter",
             "language": "React/Node",
             "platform": "Mongo/AWS Amplify",
+            "url": "http://carbcounter-20190318174918-hostingbucket-test.s3-website-eu-west-1.amazonaws.com/",
             "github":"https://github.com/wgeorgecook/carbCounter",
             "detail": "MERN stack. Allows users to create an account and store custom nutritional information. Calculates the total carbohydrate intake for all foods selected from."
 
