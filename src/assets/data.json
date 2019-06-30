@@ -22,7 +22,6 @@
             "title": "Trumpratings Front End",
             "language": "Javascript",
             "platform": "React",
-            "url": "http://superstubby.ddns.net/index.html",
             "github":"https://github.com/wgeorgecook/trumpratings-front",
             "detail": "A React front end to display data served from the @trumpratings API."
 
@@ -39,7 +38,7 @@
     ],
     "bio": {
         "top": "I’m a California native, replanted from Chicago.",
-        "middle": "I started from the ground up, working helpdesk to get through college.\nAfter moving to California I found myself doing Windows/Linux system administration.\nFrom there, I managed a help desk team. Finally I worked on deployment automation,\nparticularly for Atlassian applications running on RHEL/CentOS servers.\nI’ve come back around and am writing Python. I finished a Udacity nanodegree\nfor front end development courtesy of Google via the Grow With Google scholarship.\nFind me writting JavaScript (This site runs on Angular 6, but I know React too!), Python, or Node.js.",
+        "middle": "I started from the ground up, working helpdesk to get through college.\nAfter moving to California I found myself doing Windows/Linux system administration.\nFrom there, I managed a help desk team. Finally I worked on deployment automation,\nparticularly for Atlassian applications running on RHEL/CentOS servers.\nI’ve come back around and am writing Python. I finished a Udacity nanodegree\nfor front end development courtesy of Google via the Grow With Google scholarship.\nFind me writting Golang, Python, or JavaScript (This site runs on Angular 6, but I know React too!).",
         "bottom": "Thanks for stopping by and let’s get in touch!"
     },
     "contact": {
