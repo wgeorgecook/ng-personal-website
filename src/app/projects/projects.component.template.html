@@ -2,18 +2,19 @@
     <h1 id="workHead">Recent work</h1>
     <mat-dialog-content>
         <ul class="project-list">
-
-            <li class="list-item" *ngFor="let project of projects">
+        <ng-container  *ngFor="let project of projects">
+            <li class="list-item">
                 <hr />
                 <h3 class="projectLink">{{ project.title }}</h3>
                 <p class="projectDetail">{{ project.detail }}</p>
                 <a href="{{ project.github }}">
                     <img src="assets/github.svg" class="socialthumb" alt="github logo">
                 </a>
-                <a href="{{ project.url }}">
-                    <img src="assets/worldwide.svg" class="socialthumb" alt="2D render of the Earth">
-                </a>
+                    <a href="{{ project.url }}" *ngIf="project.url">
+                        <img src="assets/worldwide.svg" class="socialthumb" alt="2D render of the Earth">
+                    </a>
             </li>
+        </ng-container>
         </ul>
     <hr />
     <div>Globe icon made by <a href="https://www.flaticon.com/authors/epiccoders" title="EpicCoders">EpicCoders</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
