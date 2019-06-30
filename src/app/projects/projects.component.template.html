@@ -10,7 +10,7 @@
                 <a href="{{ project.github }}">
                     <img src="assets/github.svg" class="socialthumb" alt="github logo">
                 </a>
-                    <a href="{{ project.url }}">
+                    <a href="{{ project.url }}" *ngIf="project.url">
                         <img src="assets/worldwide.svg" class="socialthumb" alt="2D render of the Earth">
                     </a>
             </li>
